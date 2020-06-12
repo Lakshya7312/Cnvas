@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head>
+    <title>Universal Canvas</title>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyASpESP2IEw_fodAJte3EWgLoXiG8OCBdY",
+      authDomain: "universal-canvas-ce5fa.firebaseapp.com",
+      databaseURL: "https://universal-canvas-ce5fa.firebaseio.com",
+      projectId: "universal-canvas-ce5fa",
+      storageBucket: "universal-canvas-ce5fa.appspot.com",
+      messagingSenderId: "216106554066",
+      appId: "1:216106554066:web:d2ef8b8d8979499567130b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <div id="canvascontainer"></div>
+      <script src="sketch.js"></script>
+  
+
+</body></html>
