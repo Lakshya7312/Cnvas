@@ -14,19 +14,19 @@ function setup() {
   canvas.parent('canvascontainer');
   canvas.mouseReleased(endPath);
 
-  var input = createInput("Name");
-  input.position(10, 640);
+  //var input = createInput("Name");
+  //input.position(10, 640);
 
-  var saveButton = createButton("Save");
-  saveButton.position(30, 670);
-  saveButton.mousePressed(()=>{
-    saveDrawing();
-    input.hide();
+  //var saveButton = createButton("Save");
+  //saveButton.position(30, 670);
+  //saveButton.mousePressed(()=>{
+    //saveDrawing();
+    //input.hide();
     //saveButton.hide();
-  })
+  //})
 
   var clearButton = createButton("Clear");
-  clearButton.position(1500, 670);
+  clearButton.position(displayWidth-10, displayHeight-10);
   clearButton.mousePressed(clearDrawing);
 }
 
