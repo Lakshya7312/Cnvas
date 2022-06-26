@@ -50,11 +50,11 @@ function draw() {
     nowPath.push(point);
   }
 
-  fill("cyan");
-  textSize(15);
-  text("Enter your name to save your drawing to the database", 10, 20);
+  //fill("cyan");
+  //textSize(15);
+  //text("Enter your name to save your drawing to the database", 10, 20);
 
-  stroke("yellow");
+  stroke("#A18CD1");
   strokeWeight(5);
   noFill();
    for(var i = 0; i < drawing.length; i++){
