@@ -41,7 +41,7 @@ function endPath() {
 }
 
 function draw() {
-  background("black");  
+  background("#0C0C0C");  
   if(isDrawing){
     var point = {
       x: mouseX,
