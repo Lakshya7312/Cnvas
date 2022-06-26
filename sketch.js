@@ -9,7 +9,7 @@ var isDrawing = false;
 function setup() {
   database = firebase.database();
 
-  canvas = createCanvas(1920, 1080);
+  canvas = createCanvas(displayWidth, displayHeight);
   canvas.mousePressed(startPath);
   canvas.parent('canvascontainer');
   canvas.mouseReleased(endPath);
